@@ -1,0 +1,450 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header ul{
+  padding: 0;
+  margin: 0;
+}
+/*Global End*/
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30 px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 45px 0 45px;
+}
+
+header #brand{
+  float: left;
+}
+
+header #brand h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10.5px;
+}
+
+header a:hover{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+#showcase{
+  min-height: 850px;
+  background: url('../images/index showcase.jpg') no-repeat;
+  text-align: center;
+  color: #021430;
+}
+
+#showcase h1{
+  margin-top: 63px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  margin-top: 0px;
+  font-size:30px;
+}
+
+#newsletter{
+  padding: 15px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+#submitButton{
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+#main-footer{
+  padding: 20px;
+  margin-top: 0;
+  color:#ffffff;
+  background-color: #ff6b35;
+  text-align: center;
+}
+
+/*DRRR Styling*/
+#drrrShowcase{
+  min-height: 750px;
+  text-align: center;
+  color: #ffffff;
+  background: url('../images/ground-crack.jpg') 0 -300px no-repeat;
+  margin-bottom: 0;
+  border-bottom: #a01111 2px solid;
+}
+
+#drrrShowcase h1{
+  font-size: 35px;
+}
+
+#drrrShowcase video{
+border: 1px solid #ffffff;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#bdInfo{
+  min-height: 750px;
+}
+
+#bdInfo li{
+  font-size: 20px;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: minimax(100px, auto);
+  grid-gap: 1px;
+  justify-content: stretch;
+  align-items: stretch;
+}
+.gridContainer > div{
+  background: #eee;
+  padding: 1em;
+}
+.gridContainer > div:nth-child(odd){
+  background: #ddd;
+}
+
+.beforeInfo{
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+.beforeInfo h1{
+  text-align: center;
+}
+.duringInfo{
+  margin-right: 250px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+.afterInfo{
+  margin-left: -249px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.grabKitInfo h1{
+  text-align: left;
+}
+.grabKitInfo li{
+  text-align: left;
+}
+.kitimg img{
+  display: block;
+  float: right;
+  width: 400px;
+  height: 400px;
+}
+.kitimg{
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.grabKitInfo
+{
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+
+/*Biology Styling*/
+#pedBio{
+  min-height: 700px;
+  background: url('../images/pedBack.jpg') no-repeat 0 -1200px;
+  color: #ffffff;
+}
+#pedBio h1{
+  font-size: 50px;
+  text-align: center;
+}
+#pedBio p{
+  font-size: 30px;
+  text-align: center;
+}
+#pedBio video{
+  border: 1px solid #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pedBio img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#hypBio{
+  min-height: 700px;
+  color: #ffffff;
+  background-color: #a80d0d;
+}
+#hypBio h1{
+  font-size: 50px;
+  text-align: center;
+}
+#hypBio p{
+  font-size: 30px;
+  text-align: center;
+}
+#hypBio video{
+  border: 1px solid #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Physics Styles*/
+#rHook{
+  text-align: left;
+  background-color: #6dd8ff;
+  color: #ffffff;
+}
+
+#rHook h1{
+  font-size: 40px;
+}
+#rHook img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+#name{
+  font-size: 30px;
+  margin: 0;
+}
+#titles{
+  font-size: 25px;
+  margin: 0;
+}
+#alias{
+  font-size: 20px;
+  margin: 0;
+}
+#rHook p{
+  font-size: 18px;
+}
+
+#hLaw{
+  min-height: 2700px;
+  text-align: left;
+  background-color: #6f3684;
+  color: #ffffff;
+}
+
+#hLaw h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+#hLaw video{
+  margin-top: 0;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hLaw p{
+  font-size: 20px;
+}
+#hookEqn{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px dotted #000000;
+}
+#hLaw img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#mDeformed{
+  text-align: left;
+  background-color: #bf2f94;
+  color: #ffffff;
+}
+#mDeformed h1{
+  font-size: 40px;
+}
+#mDeformed p,li{
+  font-size: 20px;
+}
+
+#xCices{
+  text-align: left;
+  background-color: #1f2dc6;
+  color: #ffffff;
+}
+#xCices h1{
+  font-size: 40px;
+  margin: 0;
+}
+
+#xCices h2{
+  font-size: 22px;
+}
+#xCices p{
+  font-size: 20px;
+}
+
+/*About Us Style*/
+#aUs{
+  text-align: center;
+  background-color: #c69339;
+  color: #ffffff;
+}
+#aUs h1{
+  font-size: 40px;
+  margin: 0;
+}
+#saiky{
+  min-height: 300px;
+  margin: 0;
+  background-color: #4c4c4c;
+  color: #ffffff;
+  border-bottom: 5px;
+}
+#saiky img{
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+#saiky h1{
+  margin: 0;
+}
+
+#farnazo{
+  min-height: 300px;
+  margin: 0;
+  background-color: #7c7b7b ;
+  color: #ffffff;
+  border-bottom: 5px;
+}
+#farnazo img{
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+#farnazo h1{
+  margin: 0;
+}
+
+#manlangit{
+  min-height: 300px;
+  margin: 0;
+  background-color: #4c4c4c;
+  color: #ffffff;
+  border-bottom: 5px;
+}
+#manlangit img{
+  width: 300px;
+  height: 300px;
+  float: right;
+}
+#manlangit h1{
+  margin: 0;
+}
+
+/*Media Handler*/
+@media (max-width:768px) {
+  header #brand,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+
+  .duringInfo{
+    margin-right: 0px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .afterInfo{
+    margin-left: 0px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .grabKitInfo
+  {
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+}
+
+
+
+video {
+ width:100%;
+ max-width:1090px;
+ height:auto;
+}
+img{
+  width:100%;
+  max-width:1090px;
+  height:auto;
+}
